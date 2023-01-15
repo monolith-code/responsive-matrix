@@ -1,5 +1,5 @@
 let c = document.getElementById("c");
-let monolith_logo = document.getElementById("monolith_logo")
+let logo = document.getElementById("logo")
 let ctx = c.getContext("2d");
 c.height = window.innerHeight;
 c.width = window.innerWidth;
@@ -57,7 +57,7 @@ window.addEventListener('resize',function(){
     ctx.canvas.height = height;
 },false);
 
-monolith_logo.ondragstart = () => {
+logo.ondragstart = () => {
     return false;
 };
 
