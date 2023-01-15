@@ -1,0 +1,26 @@
+@font-face {
+    font-family: "Dos";
+    src: url(./assets/dos.ttf) format("truetype");
+}
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+}
+
+body {background: black;}
+canvas {display:block;}
+.logo {
+    position: absolute;
+    top: 0px;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img {
+    height: 50%;
+}
