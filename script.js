@@ -36,7 +36,7 @@ for(let i=0; i<columns; i++){
     ctx.fillStyle = "rgba(0, 0, 0, 0.04)";
     ctx.fillRect(0, 0, window.innerWidth, window.innerHeight);
     ctx.fillStyle = "#b50000";
-    ctx.font = font_size + "px Dos";
+    ctx.font = font_size + "px Arial";
 }
 
 function test(){  
