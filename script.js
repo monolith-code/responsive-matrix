@@ -39,7 +39,7 @@ for(let i=0; i<columns; i++){
     ctx.font = font_size + "px Arial";
 }
 
-function test(){  
+function resizer(){  
     let newcolumns = window.innerWidth/font_size;
     let addcolumns = newcolumns-columns
 
@@ -62,4 +62,4 @@ logo.ondragstart = () => {
 };
 
 setInterval(draw, 35);
-setInterval(test, 1000);
+setInterval(resizer, 1000);
